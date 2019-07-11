@@ -1,9 +1,10 @@
 {application,pluralsight_tweet,
-             [{applications,[kernel,stdlib,elixir,logger,credo]},
+             [{applications,[kernel,stdlib,elixir,logger,quantum,credo]},
               {description,"pluralsight_tweet"},
               {modules,['Elixir.PluralsightTweet',
                         'Elixir.PluralsightTweet.Application',
-                        'Elixir.PluralsightTweet.FileReader']},
+                        'Elixir.PluralsightTweet.FileReader',
+                        'Elixir.PluralsightTweet.Scheduler']},
               {registered,[]},
               {vsn,"0.1.0"},
               {mod,{'Elixir.PluralsightTweet.Application',[]}}]}.
