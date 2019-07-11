@@ -2,7 +2,8 @@
              [{applications,[kernel,stdlib,elixir,logger,credo]},
               {description,"pluralsight_tweet"},
               {modules,['Elixir.PluralsightTweet',
-                        'Elixir.PluralsightTweet.Application']},
+                        'Elixir.PluralsightTweet.Application',
+                        'Elixir.PluralsightTweet.FileReader']},
               {registered,[]},
               {vsn,"0.1.0"},
               {mod,{'Elixir.PluralsightTweet.Application',[]}}]}.
