@@ -6,7 +6,8 @@
                         'Elixir.PluralsightTweet.Application',
                         'Elixir.PluralsightTweet.FileReader',
                         'Elixir.PluralsightTweet.Scheduler',
-                        'Elixir.PluralsightTweet.Tweet']},
+                        'Elixir.PluralsightTweet.Tweet',
+                        'Elixir.PluralsightTweet.TweetServer']},
               {registered,[]},
               {vsn,"0.1.0"},
               {mod,{'Elixir.PluralsightTweet.Application',[]}}]}.
