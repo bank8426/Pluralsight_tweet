@@ -1,6 +1,6 @@
 {application,pluralsight_tweet,
              [{applications,[kernel,stdlib,elixir,logger,quantum,extwitter,
-                             credo]},
+                             mock,credo]},
               {description,"pluralsight_tweet"},
               {modules,['Elixir.PluralsightTweet',
                         'Elixir.PluralsightTweet.Application',
